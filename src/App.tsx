@@ -6,7 +6,7 @@ const App: React.FC = () => {
   return (
     <div className="login">
       <div className="login__image">
-        <img src="/src/assets/svg.png" alt="" />
+        <img src="/svg.png" alt="" />
       </div>
       <div className="login__content">
         <div className="login__signIn">
@@ -27,7 +27,7 @@ const App: React.FC = () => {
             </div>
             <input className="login__enter" type="submit" value="Entrar na conta" />
             <button className="login__google">
-              <img src="/src/assets/icon.png" alt="" />
+              <img src="/google.png" alt="" />
               Ou faça login com o Google
             </button>
             <p className="login__noAccount">Não tem uma conta? <a href="#">Cadastre-se</a></p>
